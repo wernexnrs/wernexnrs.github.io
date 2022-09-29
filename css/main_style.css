@@ -21,3 +21,19 @@ a{
     text-align: center;
 }
 
+.lang{
+	margin-top: 15px;
+	margin-left: 16px;
+	margin-right: 16px;
+	  position: relative;
+  top: 0;
+	width: 64px;
+    height: 64px;
+	transition: 0.4s;
+}
+.lang:hover{
+	position: relative; 
+    top: -30px;
+	transition: 0.4s;
+	transform: scale(1.4);
+}
